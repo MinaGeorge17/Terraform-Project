@@ -1,0 +1,25 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform crash logs
+crash.log
+
+# Ignore .terraform directory (used for local Terraform plugins/cache)
+.terraform/
+
+# Ignore variable overrides that may contain secrets
+terraform.tfvars
+
+# Ignore lock file (optional)
+.terraform.lock.hcl
+
+# Ignore logs and temp files
+*.log
+
+# Backup files
+*~
+
+# Ignore IDE/editor-specific files (optional)
+.vscode/
+*.swp
